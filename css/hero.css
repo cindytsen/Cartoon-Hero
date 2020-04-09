@@ -5,6 +5,7 @@ body {
     background-color: #FDFEFE;
 }
 
+/* header styles */
 
 header {
     background-color: teal;
@@ -38,6 +39,8 @@ header img {
     border: 10px solid #900C3F;
 }
 
+/* main elements styles */
+
 main {
     max-width: 800px;
     margin: 0 auto;
@@ -56,6 +59,14 @@ a {
 a:hover {
     color: #483A94;
 } 
+
+p.caption {
+    color: lightslategray;
+    font-style: italic;
+    margin-top: 2px;
+}
+
+/* Footer elements styles */
 
 footer {
     background-color: teal;
@@ -80,8 +91,3 @@ footer a:hover {
     background-color: transparent;
 }
 
-p.caption {
-    color: lightslategray;
-    font-style: italic;
-    margin-top: 2px;
-}
